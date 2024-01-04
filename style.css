@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-container{
+    width: 100%;
+    height: auto;
+}
+.top-navbar{
+    width: 100%;
+    height: 45px;
+    background-color: rgb(48, 74, 91);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+.top-navbar h4{
+    font-size: 20px;
+}
+.navbar{
+    width: 100%;
+    height: 85px;
+    background-color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    padding-inline: 40px;
+    
+}
+.bars{
+    display: none;
+}
+
+.list1{
+    width: 30%;
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+   
+}
+.list1 li{
+    list-style: none;
+    font-size: 13px;
+    color: rgb(109, 109, 156);
+}
+.logo-part{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.logo-part img{
+    width: 120px;
+}
+.list2{
+    width: 25%;
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+
+}
+.list2 li{
+    list-style: none;
+    font-size: 13px;
+    color: rgb(109, 109, 156);
+}
+.icon-part{
+    width: 15%;
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+}
+.icon-part li{
+    list-style: none;
+    font-size: 22px;
+    color: rgb(109, 109, 156);
+
+}
+.search-bar{
+    display: none;
+}
+.hero-section{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./images/grand_festive_sale-02_0660374c-d742-4551-a99e-badf904fd437.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    
+}
+.box{
+    width:540px;
+    height: 500px;
+    background-color: rgb(189, 67, 45);
+    margin-right: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.box h1{
+    font-family: 'Harrington Regular';
+    color: white;font-size: 50px;
+}
+.box p{
+    color: white;
+    font-size: 18px;
+}
+.box button{
+    width: 130px;
+    height: 45px;
+    color: white;
+    background-color: rgb(47, 73, 90);
+    border: none;
+    margin-top: 30px;
+}
+.box button:hover{
+    background-color: transparent;
+    columns:  rgb(47, 73, 90);
+    border: 1px solid  rgb(47, 73, 90);
+    color:  rgb(46, 73, 92);
+}
+.banner-section{
+    width: 100%;
+    height: auto;
+    background-color: rgb(238, 229, 229);
+}
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-block: 60px;
+
+}
+.heading h1{
+    font-size: 55px;
+    text-align: center;
+    font-family: 'Harrington Regular';
+    color: rgb(201, 108, 72);
+}
+.heading p{
+    font-size: 18px;
+    color: grey;
+    margin-top: 50px;
+    text-align: center;
+}
+.images{
+  padding-inline: 40px;
+}
+.images img{
+    width: 620px;
+    
+}
+.images img:nth-child(2){
+    margin-left: 20px;
+}
+.images img:nth-child(4){
+    margin-left: 20px;
+}
+.video-section{
+    width: 100%;
+    height: auto;
+    
+}
+.videos{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-block: 30px;
+    background-color: rgb(238, 229, 229);
+
+}
+.videos video{
+    width: 315px;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive css code */
+
+@media (max-width:768px) {
+
+    .main-container{
+        width: 100%;
+        height: auto;
+    }
+    .top-navbar{
+        width: 100%;
+        height: 45px;
+    }
+    .navbar{
+        width: 100%;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .list1{
+        display: none;
+    }
+    .list2{
+        display: none;
+    }
+    .logo-part{
+        width:40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .icon-part{
+        width: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .bars{
+        width:10px ;
+        display: flex;
+        align-items: start;
+        justify-content: start;
+    }
+    .bars li{
+        list-style: none;
+        color: rgb(109, 109, 156);
+        font-size: 25px;
+        
+    }
+    .icon-part li:first-child{
+        display: none;
+    }
+    .icon-part li:nth-child(2){
+        display: none;
+    }
+    .icon-part li:nth-child(3){
+        display: none;
+    }
+    
+}
